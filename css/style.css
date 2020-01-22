@@ -4121,3 +4121,7 @@ form .error {
         margin-right: 10px;
         font-size: 18px;
     }
+
+/*CSS for Leaflet map*/
+#mapid { height: 25em; 
+border: 1px solid #aaa;}
