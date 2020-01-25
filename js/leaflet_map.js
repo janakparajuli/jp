@@ -1,5 +1,4 @@
 //Initialize a mao and set its view
-console.log('I reached js page');
 var mymap = L.map("mapid", {
     zoom: 6,
     center: [27.98801, 85.116184],
@@ -13,4 +12,28 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     id: 'mapbox/streets-v11',
     accessToken: 'pk.eyJ1IjoiamFuYWtwYXJhanVsaSIsImEiOiJjaWdtMWd2eWUwMjRvdXJrcjVhbTFvcmszIn0.jRIRtmgCm5waI7RXih3t5A'
 }).addTo(mymap);
+function popUp(f,l){
+  var out = [];
+  if (f.properties){
+      for(key in f.properties){
+          out.push(key+": "+f.properties[key]);
+      }
+      l.bindPopup(out.join("<br />"));
+  }
+}
 
+let places = new L.GeoJSON.AJAX(["./data/map.geojson"],{onEachFeature:popUp});//.addTo(mymap);
+places.on('data:loaded',function(){
+
+  let clusters=L.markerClusterGroup();
+  clusters.addLayer(places);
+  mymap.addLayer(clusters);
+});
+
+// var markers = new L.MarkerClusterGroup();
+
+// markers.addLayer(L.marker([175.3107, -37.7784]));
+// // add more markers here...
+
+// map.addLayer(markers);
+// //places.addTo(mymap);
