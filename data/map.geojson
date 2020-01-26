@@ -1,0 +1,238 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "properties": {
+            "Place": "Kathmandu"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [85.33836364746094, 27.71818105028939]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Place": "Bhaktapur"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [85.43449401855469, 27.679879763100498]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Place": "Lalitpur"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [85.33287048339844, 27.623315215692106]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Place": "Panauti"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [85.51345825195312, 27.58863216796008]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Place": "Itahari"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [87.27127075195312, 26.662186843258542]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Place": "Dharan"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [87.28294372558594, 26.817330220835697]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Place": "Chandragadhi"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [88.06365966796874, 26.571333057252076]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Place": "Katari"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [86.36215209960938, 26.969813673352203]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Place": "Lahan"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [86.48162841796875, 26.716173757934094]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Place": "Hetauda"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [85.02456665039062, 27.425414052729582]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Place": "Bharatpur"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [84.44229125976562, 27.689608347428003]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Place": "Kawaswoti"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [84.11956787109375, 27.648255880202026]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Place": "Butwal"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [83.46038818359375, 27.70176785888543]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Place": "Pokhara"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [83.99871826171875, 28.21970990898649]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Place": "Beshishahar"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [84.36676025390625, 28.246327971048842]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Place": "Jajarkot"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [82.19146728515625, 28.70745188935186]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Place": "Nepalgunj"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [81.63665771484375, 28.07198030177986]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Place": "Dhangadhi"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [80.562744140625, 28.72190478475891]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Place": "Bhimdatta"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [80.15899658203125, 28.976909313412413]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Place": "Khaptad"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [81.10931396484374, 29.386961521657504]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Place": "Rara"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [82.08709716796875, 29.537619205973428]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Place": "Jumla"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [82.177734375, 29.288794393648296]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Place": "Kalikot"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [81.59554481506348, 29.15051218443236]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Place": "Baglung"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [83.59909057617188, 28.272939391283685]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Place": "Beni"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [83.56407165527344, 28.347295137387807]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Place": "Kushma"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [83.68080139160156, 28.220314938672495]
+        }
+    }]
+}
