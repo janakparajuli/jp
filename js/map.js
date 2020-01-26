@@ -10,11 +10,11 @@ function init() {
     // Basic options for a simple Google Map
     var mapOptions = {
 
-        zoom: 15, // How zoomed in you want the map to start at (always required)
-        scrollwheel: false, //set to true to enable mouse scrolling while inside the map area
+        zoom: 14, // How zoomed in you want the map to start at (always required)
+        scrollwheel: true, //set to true to enable mouse scrolling while inside the map area
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(21.170240, 72.831061), // here put your location
+        center: new google.maps.LatLng(40, 0), // here put your location
 
         // How you would like to style the map. 
         // This is where you would paste any style found on Snazzy Maps.
@@ -214,7 +214,7 @@ function init() {
 
     // Let's also add a marker while we're at it
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(21.170240, 72.831061),
+        position: new google.maps.LatLng(40, 0),
         map: map,
         title: 'Nileforest',
         icon: 'img/map-marker.png'

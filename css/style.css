@@ -2354,11 +2354,10 @@ header.header-prepare .nav-bar-icon > span::after {
     /* Dropdown */
     .sub-dropdown.dropdown, .sub-dropdown {
         top: 100%;
-        position: relative;
+        position: absolute;
         left: 0;
         width: 100%;
     }
-
         .sub-dropdown a {
             padding-left: 30px !important;
         }
