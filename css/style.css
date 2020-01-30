@@ -2286,16 +2286,17 @@ header.header-prepare .nav-bar-icon > span::after {
 }
 
 .sub-dropdown.dropdown {
+    position: absolute;
     top: 100%;
     left: 0;
 }
 
 .sub-dropdown {
-    position: absolute;
+    position: relative;
     left: 100%;
     top: 0;
     display: none;
-    background: rgba(34,34,34,0.90);
+    background: rgba(197, 196, 196, 0.9);
     padding: 0;
     width: 200px;
 }
