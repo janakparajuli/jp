@@ -216,7 +216,7 @@ function init() {
     var marker = new google.maps.Marker({
         position: new google.maps.LatLng(40, 0),
         map: map,
-        title: 'Nileforest',
+        title: 'JP',
         icon: 'img/map-marker.png'
 
     });
